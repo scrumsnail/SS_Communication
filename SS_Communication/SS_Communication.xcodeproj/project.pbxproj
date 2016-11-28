@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872568EA1DE7CCD500F34E1C /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872568E91DE7CCD500F34E1C /* ChatViewController.m */; };
+		872569171DE7F66100F34E1C /* WeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872569151DE7F66100F34E1C /* WeChatViewController.m */; };
+		872569181DE7F66100F34E1C /* WeChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 872569161DE7F66100F34E1C /* WeChatViewController.xib */; };
+		87AC55741DE684B000CADAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC55731DE684B000CADAB8 /* main.m */; };
+		87AC55771DE684B000CADAB8 /* SS_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC55761DE684B000CADAB8 /* SS_AppDelegate.m */; };
+		87AC557D1DE684B000CADAB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AC557B1DE684B000CADAB8 /* Main.storyboard */; };
+		87AC557F1DE684B000CADAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AC557E1DE684B000CADAB8 /* Assets.xcassets */; };
+		87AC55821DE684B000CADAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87AC55801DE684B000CADAB8 /* LaunchScreen.storyboard */; };
+		87AC558C1DE68BFE00CADAB8 /* SS_communicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC558B1DE68BFE00CADAB8 /* SS_communicate.m */; };
+		87AC558F1DE691CC00CADAB8 /* SS_define.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC558E1DE691CC00CADAB8 /* SS_define.m */; };
+		87AC55921DE6B3AF00CADAB8 /* SS_MCSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC55911DE6B3AF00CADAB8 /* SS_MCSessionManager.m */; };
+		87AC55951DE6B3DC00CADAB8 /* SS_speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC55941DE6B3DC00CADAB8 /* SS_speaker.m */; };
+		87AC55981DE6B3E700CADAB8 /* SS_callback.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC55971DE6B3E700CADAB8 /* SS_callback.m */; };
+		87AC55C81DE6DCC700CADAB8 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AC55C71DE6DCC700CADAB8 /* ConnectionsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		872568E81DE7CCD500F34E1C /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		872568E91DE7CCD500F34E1C /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		872569141DE7F66100F34E1C /* WeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatViewController.h; sourceTree = "<group>"; };
+		872569151DE7F66100F34E1C /* WeChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatViewController.m; sourceTree = "<group>"; };
+		872569161DE7F66100F34E1C /* WeChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeChatViewController.xib; sourceTree = "<group>"; };
+		87AC556F1DE684B000CADAB8 /* SS_Communication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SS_Communication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AC55731DE684B000CADAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87AC55751DE684B000CADAB8 /* SS_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SS_AppDelegate.h; sourceTree = "<group>"; };
+		87AC55761DE684B000CADAB8 /* SS_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SS_AppDelegate.m; sourceTree = "<group>"; };
+		87AC557C1DE684B000CADAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87AC557E1DE684B000CADAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87AC55811DE684B000CADAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87AC55831DE684B000CADAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AC558A1DE68BFE00CADAB8 /* SS_communicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_communicate.h; sourceTree = "<group>"; };
+		87AC558B1DE68BFE00CADAB8 /* SS_communicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_communicate.m; sourceTree = "<group>"; };
+		87AC558D1DE691CC00CADAB8 /* SS_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_define.h; sourceTree = "<group>"; };
+		87AC558E1DE691CC00CADAB8 /* SS_define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_define.m; sourceTree = "<group>"; };
+		87AC55901DE6B3AF00CADAB8 /* SS_MCSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_MCSessionManager.h; sourceTree = "<group>"; };
+		87AC55911DE6B3AF00CADAB8 /* SS_MCSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_MCSessionManager.m; sourceTree = "<group>"; };
+		87AC55931DE6B3DC00CADAB8 /* SS_speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_speaker.h; sourceTree = "<group>"; };
+		87AC55941DE6B3DC00CADAB8 /* SS_speaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_speaker.m; sourceTree = "<group>"; };
+		87AC55961DE6B3E700CADAB8 /* SS_callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_callback.h; sourceTree = "<group>"; };
+		87AC55971DE6B3E700CADAB8 /* SS_callback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS_callback.m; sourceTree = "<group>"; };
+		87AC55C61DE6DCC700CADAB8 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		87AC55C71DE6DCC700CADAB8 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87AC556C1DE684B000CADAB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87AC55661DE684B000CADAB8 = {
+			isa = PBXGroup;
+			children = (
+				87AC55711DE684B000CADAB8 /* SS_Communication */,
+				87AC55701DE684B000CADAB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87AC55701DE684B000CADAB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87AC556F1DE684B000CADAB8 /* SS_Communication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87AC55711DE684B000CADAB8 /* SS_Communication */ = {
+			isa = PBXGroup;
+			children = (
+				87AC55891DE68BB100CADAB8 /* objc */,
+				87AC55C21DE6DC9400CADAB8 /* Classes */,
+				87AC55751DE684B000CADAB8 /* SS_AppDelegate.h */,
+				87AC55761DE684B000CADAB8 /* SS_AppDelegate.m */,
+				87AC557B1DE684B000CADAB8 /* Main.storyboard */,
+				87AC55721DE684B000CADAB8 /* Supporting Files */,
+			);
+			path = SS_Communication;
+			sourceTree = "<group>";
+		};
+		87AC55721DE684B000CADAB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87AC55801DE684B000CADAB8 /* LaunchScreen.storyboard */,
+				87AC55831DE684B000CADAB8 /* Info.plist */,
+				87AC557E1DE684B000CADAB8 /* Assets.xcassets */,
+				87AC55731DE684B000CADAB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87AC55891DE68BB100CADAB8 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				87AC558A1DE68BFE00CADAB8 /* SS_communicate.h */,
+				87AC558B1DE68BFE00CADAB8 /* SS_communicate.m */,
+				87AC558D1DE691CC00CADAB8 /* SS_define.h */,
+				87AC558E1DE691CC00CADAB8 /* SS_define.m */,
+				87AC55901DE6B3AF00CADAB8 /* SS_MCSessionManager.h */,
+				87AC55911DE6B3AF00CADAB8 /* SS_MCSessionManager.m */,
+				87AC55931DE6B3DC00CADAB8 /* SS_speaker.h */,
+				87AC55941DE6B3DC00CADAB8 /* SS_speaker.m */,
+				87AC55961DE6B3E700CADAB8 /* SS_callback.h */,
+				87AC55971DE6B3E700CADAB8 /* SS_callback.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		87AC55C21DE6DC9400CADAB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				87AC55C31DE6DC9400CADAB8 /* Chat */,
+				87AC55C41DE6DC9400CADAB8 /* Connections */,
+				87AC55C51DE6DC9400CADAB8 /* Files */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		87AC55C31DE6DC9400CADAB8 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				872568E81DE7CCD500F34E1C /* ChatViewController.h */,
+				872568E91DE7CCD500F34E1C /* ChatViewController.m */,
+				872569141DE7F66100F34E1C /* WeChatViewController.h */,
+				872569151DE7F66100F34E1C /* WeChatViewController.m */,
+				872569161DE7F66100F34E1C /* WeChatViewController.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		87AC55C41DE6DC9400CADAB8 /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				87AC55C61DE6DCC700CADAB8 /* ConnectionsViewController.h */,
+				87AC55C71DE6DCC700CADAB8 /* ConnectionsViewController.m */,
+			);
+			path = Connections;
+			sourceTree = "<group>";
+		};
+		87AC55C51DE6DC9400CADAB8 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87AC556E1DE684B000CADAB8 /* SS_Communication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AC55861DE684B000CADAB8 /* Build configuration list for PBXNativeTarget "SS_Communication" */;
+			buildPhases = (
+				87AC556B1DE684B000CADAB8 /* Sources */,
+				87AC556C1DE684B000CADAB8 /* Frameworks */,
+				87AC556D1DE684B000CADAB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SS_Communication;
+			productName = SS_Communication;
+			productReference = 87AC556F1DE684B000CADAB8 /* SS_Communication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87AC55671DE684B000CADAB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = scrum_snail;
+				TargetAttributes = {
+					87AC556E1DE684B000CADAB8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VGXYJ6BWCJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87AC556A1DE684B000CADAB8 /* Build configuration list for PBXProject "SS_Communication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87AC55661DE684B000CADAB8;
+			productRefGroup = 87AC55701DE684B000CADAB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87AC556E1DE684B000CADAB8 /* SS_Communication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87AC556D1DE684B000CADAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872569181DE7F66100F34E1C /* WeChatViewController.xib in Resources */,
+				87AC55821DE684B000CADAB8 /* LaunchScreen.storyboard in Resources */,
+				87AC557F1DE684B000CADAB8 /* Assets.xcassets in Resources */,
+				87AC557D1DE684B000CADAB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87AC556B1DE684B000CADAB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AC55C81DE6DCC700CADAB8 /* ConnectionsViewController.m in Sources */,
+				87AC558C1DE68BFE00CADAB8 /* SS_communicate.m in Sources */,
+				87AC55981DE6B3E700CADAB8 /* SS_callback.m in Sources */,
+				87AC55921DE6B3AF00CADAB8 /* SS_MCSessionManager.m in Sources */,
+				87AC55951DE6B3DC00CADAB8 /* SS_speaker.m in Sources */,
+				87AC558F1DE691CC00CADAB8 /* SS_define.m in Sources */,
+				87AC55771DE684B000CADAB8 /* SS_AppDelegate.m in Sources */,
+				87AC55741DE684B000CADAB8 /* main.m in Sources */,
+				872569171DE7F66100F34E1C /* WeChatViewController.m in Sources */,
+				872568EA1DE7CCD500F34E1C /* ChatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87AC557B1DE684B000CADAB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AC557C1DE684B000CADAB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87AC55801DE684B000CADAB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AC55811DE684B000CADAB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87AC55841DE684B000CADAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87AC55851DE684B000CADAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87AC55871DE684B000CADAB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = SS_Communication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.SS-Communication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87AC55881DE684B000CADAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = SS_Communication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.SS-Communication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87AC556A1DE684B000CADAB8 /* Build configuration list for PBXProject "SS_Communication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AC55841DE684B000CADAB8 /* Debug */,
+				87AC55851DE684B000CADAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AC55861DE684B000CADAB8 /* Build configuration list for PBXNativeTarget "SS_Communication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AC55871DE684B000CADAB8 /* Debug */,
+				87AC55881DE684B000CADAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87AC55671DE684B000CADAB8 /* Project object */;
+}
